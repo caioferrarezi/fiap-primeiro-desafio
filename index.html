@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <main>
+    <header>
+      <h1>PosTech - FullStack</h1>
+      <p>Desafio aula inaugural</p>
+    </header>
+
+    <section class="principal">
+      <form
+        id="form"
+        action="https://fsdt-contact-acf4ab9867a7.herokuapp.com/contact"
+        method="POST"
+      >
+        <h2 class="principal--titulo">Informações do grupo</h2>
+
+        <label class="principal--label" for="name1">Nome</label>
+        <input class="principal--textfield" type="text" id="name1" name="names">
+
+        <label class="principal--label" for="name2">Nome</label>
+        <input class="principal--textfield" type="text" id="name2" name="names">
+
+        <label class="principal--label" for="name3">Nome</label>
+        <input class="principal--textfield" type="text" id="name3" name="names">
+
+        <label class="principal--label" for="name4">Nome</label>
+        <input class="principal--textfield" type="text" id="name4" name="names">
+
+        <label class="principal--label" for="name5">Nome</label>
+        <input class="principal--textfield" type="text" id="name5" name="names">
+
+        <label for="story">História do grupo</label>
+        <textarea class="principal--textarea" id="story" name="message"></textarea>
+
+        <button class="principal--botao" type="submit">Enviar</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="./index.js" type="text/javascript"></script>
+</body>
+</html>
